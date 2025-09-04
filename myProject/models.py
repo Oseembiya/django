@@ -7,6 +7,7 @@ class Product(models.Model):
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     rating = models.FloatField()
+    
 
 class Customer(models.Model):
     MEMBERSHIP_BRONZE = 'B'
